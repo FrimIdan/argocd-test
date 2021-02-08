@@ -1,0 +1,12 @@
+kind: PortshiftPolicy
+apiVersion: portshift.io/v1beta1
+metadata:
+  name: client-demo
+spec:
+  deploymentName: client
+  to:
+    internal: [db]
+    external: false
+  from:
+    internal: []
+    external: true
