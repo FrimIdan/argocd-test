@@ -6,7 +6,7 @@ spec:
   deploymentName: client
   to:
     internal: [db]
-    external: false
+    external: true
   from:
     internal: []
     external: true
