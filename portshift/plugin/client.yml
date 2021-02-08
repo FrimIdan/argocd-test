@@ -16,6 +16,7 @@ spec:
       labels:
         app: client
         role: app-test
+        add: test        
     spec:
       containers:
         - name: client
