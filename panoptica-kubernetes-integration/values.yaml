@@ -69,7 +69,7 @@ kubernetes-integration-deployment-controller:
 
   secret:
     # -- Token used by the deployment controller to communicate with the SaaS.
-    token: ""
+    token: "xxx"
 
   syncIntegrationJob:
     image:
