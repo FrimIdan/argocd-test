@@ -36,7 +36,7 @@ global:
   extraLabels: {}
 
   deploymentHooks:
-    enabled: true
+    enabled: false
 
   panopticaCDR:
     # -- Cluster ID used by CDR.
