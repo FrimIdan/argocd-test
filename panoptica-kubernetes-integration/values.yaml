@@ -45,13 +45,13 @@ global:
 
   panopticaIntegration:
     # -- [Required] Integration ID.
-    id: ""
+    id: "xxx"
     kspm:
       # -- Indicates whether KSPM is enabled. Always true; this value cannot be changed.
-      enabled: true
+      enabled: false
     apiSecurity:
       # -- Indicates whether API Security is enabled.
-      enabled: true
+      enabled: false
     cdr:
       # -- Indicates whether Realtime CDR is enabled.
       enabled: false
@@ -65,7 +65,7 @@ kubernetes-integration-deployment-controller:
 
   api:
     # -- [Required] Panoptica SaaS URL.
-    url: ""
+    url: "xxx"
 
   secret:
     # -- Token used by the deployment controller to communicate with the SaaS.
@@ -77,7 +77,7 @@ kubernetes-integration-deployment-controller:
       registry: "registry.outshift.com"
     api:
       # -- [Required] Panoptica SaaS URL.
-      url: ""
+      url: "xxx"
 
 # Panoptica controller values
 k8sec-controller:
