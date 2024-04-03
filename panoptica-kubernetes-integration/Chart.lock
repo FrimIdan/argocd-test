@@ -1,0 +1,15 @@
+dependencies:
+- name: kubernetes-integration-deployment-controller
+  repository: oci://public.ecr.aws/ciscoeti/panoptica/charts
+  version: 0.5.0
+- name: panoptica
+  repository: oci://us-docker.pkg.dev/eticloud/panoptica-registry/panoptica
+  version: 1.221.0
+- name: apisec-controllers
+  repository: oci://us-docker.pkg.dev/eticloud/panoptica-public-registry/apisec
+  version: 0.3.8
+- name: panoptica-cdr
+  repository: oci://registry.outshift.com/panoptica/cdr/helm-charts
+  version: 1.0.22
+digest: sha256:7e976d87f8a04069eb95fb3b72494a5454611219df65ca97c8cadd4ef5cb424c
+generated: "2024-03-27T15:42:15.640396375Z"
