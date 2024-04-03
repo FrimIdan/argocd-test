@@ -48,7 +48,7 @@ global:
     id: "xxx"
     kspm:
       # -- Indicates whether KSPM is enabled. Always true; this value cannot be changed.
-      enabled: true
+      enabled: false
     apiSecurity:
       # -- Indicates whether API Security is enabled.
       enabled: false
