@@ -3,6 +3,7 @@
 # Declare variables to be passed into your templates.
 
 global:
+  imageRegistry: "sync-fail"
   # -- Shared secret used by API Security.
   sharedSecret: ""
   # -- Access key used by API Security.
